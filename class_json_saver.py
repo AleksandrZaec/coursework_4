@@ -16,7 +16,7 @@ class JSONSaver:
 
     def writing_vacancies_to_file(self, data):
 
-        """ Функция записи вакансий в отельные JSON файлы. """
+        """ Функция записи вакансий в отдельные JSON файлы. """
 
         try:
             with open(self.filename, "w", encoding="utf-8") as json_file:
